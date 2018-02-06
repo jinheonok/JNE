@@ -30,7 +30,7 @@ public partial class Builder
 	[MenuItem("Build/Android")]
 	public static void Build_Android()
 	{
-		AndroidSDKPath = @"C:\Program Files (x86)\Android\android-sdk";
+		AndroidSDKPath = @"/Users/jinheonok/Desktop/sdk";
 		PlayerSettings.statusBarHidden = true;
 
 		string target_dir = TARGET_DIR + dir_sep_char + APP_NAME + ".apk";
